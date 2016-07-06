@@ -54,9 +54,3 @@ class AmazonDesc():
 		product_info = {} 
 
 		return self.build_json(content,product_info)
-		
-		
-
-product = AmazonDesc("https://www.amazon.ca/BQLZR-Multifunction-SystemAluminum-Exchanger-Computer/dp/B00L2868VE/ref=sr_1_1?s=electronics&ie=UTF8&qid=1467029022&sr=1-1&keywords=radiator")
-
-print product.scrape()
